@@ -1,14 +1,14 @@
 
----[ RS - SpringProfiles - Links ]---
+---[ SpringProfiles - Links ]---
 
 
 ---[ Theory
 
 DONE
--
+http://www.baeldung.com/spring-profiles
 
 IN PROGRESS
-http://www.baeldung.com/spring-profiles
+-
 
 TODO
 -

@@ -18,10 +18,10 @@ import lombok.NoArgsConstructor;
  * As a quick sidenote, profile names can also be prefixed with a NOT operator e.g. “!dev” to exclude them from a profile. In the below example,
  * the component is activated only if “dev” profile is not active
  */
-@Profile({ ProfileConstants.DEV_PROFILE, ProfileConstants.PROD_PROFILE })
 @Configuration
 @ConfigurationProperties(prefix = "database")
 @PropertySource("classpath:/application-configs/database.properties")
+@Profile({ ProfileConstants.DEV_PROFILE, ProfileConstants.PROD_PROFILE })
 public class DatabaseConfigs {
 	
 	private String url;
